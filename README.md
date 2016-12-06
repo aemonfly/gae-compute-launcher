@@ -3,6 +3,14 @@
 A demonstration of how to launch docker based tasks on Google Compute Engine
 using Google App Engine.
 
+## Prerequisites
+
+* Install [Google Cloud SDK](https://cloud.google.com/sdk/).
+
+* Signup for Google Cloud Platform and get a Project Id.
+
+* Turn on billing (required for launching compute instances).
+
 ## Running on DevAppServer
 
 Run the following:
