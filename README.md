@@ -47,5 +47,5 @@ Now navigate to `http://your-project-id.appspot.com/launcher`.
 
 ## License and Disclaimer
 
-This is an example provided 'as-is' without any warrantee see LICENSE.txt for
+This is an example provided 'as-is' without any warranty see LICENSE.txt for
 details.
