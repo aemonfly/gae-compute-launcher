@@ -66,5 +66,5 @@ cron:
 	@echo appcfg.py update_cron .
 	@$(APPCFG) -A $(PROJECT_ID) update_cron .
 
-lint:
+lint: deps
 	python -m flake8 && python -m pylint *.py
