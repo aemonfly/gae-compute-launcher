@@ -1,0 +1,8 @@
+{
+    "@python": 2.7,
+    "linters": {
+        "pylint": {
+            "chdir": "${project}"
+        }
+    }
+}

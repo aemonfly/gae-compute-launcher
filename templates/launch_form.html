@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google App Engine Compute Instance Launcher</title>
+<style>
+.message {
+    color: red;
+}
+</style>
+</head>
+<body>
+    <h1>Google App Engine Compute Instance Launcher</h1>
+    {% if launched %}
+    <p class='message'>
+    Success! Just launched an instance named: {{launched}}
+    </p>
+    {% endif %}
+    <p>
+    Click the button to launch {{ 'an' if not launched else 'another' }}
+    instance
+    </p>
+    <form method="POST">
+        <input type="hidden" name="_csrf_token" value={{_csrf_token}}>
+        <input type="submit" value="Launch">
+    </form>
+</body>
+</html>
