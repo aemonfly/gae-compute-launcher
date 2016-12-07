@@ -11,6 +11,13 @@ using Google App Engine.
 
 * Turn on billing (required for launching compute instances).
 
+## Deploying the Docker Image
+
+You will need to deploy the docker image in order the task to be runnable
+on compute engine. To do this run the following:
+
+    make image
+
 ## Running on DevAppServer
 
 Run the following:
