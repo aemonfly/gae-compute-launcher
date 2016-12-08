@@ -1,7 +1,8 @@
 # Google App Engine Compute Launcher
 
 A demonstration of how to launch docker based tasks on Google Compute Engine
-using Google App Engine.
+using Google App Engine. Further explanation can be found on the author's
+[blog post](http://www.zenlambda.com/blog/cost-efficient-scheduled-batch-tasks-google-cloud/).
 
 ## Prerequisites
 
